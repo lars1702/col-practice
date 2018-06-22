@@ -7,12 +7,12 @@ router.get("/", (req, res, next) => {
 });
 
 router.get("/student2", (req, res, next) => {
-  res.send("LEWD");
+  res.render("student2");
 });
 
 
 router.get('/student1', (req, res, next) => {
-  res.send("I'm the first student");
+  res.render("student1");
 });
 
 module.exports = router;
