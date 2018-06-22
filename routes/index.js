@@ -10,8 +10,7 @@ router.get("/student2", (req, res, next) => {
   res.send("LEWD");
 });
 
-
-router.get('/student1', (req, res, next) => {
+router.get("/student1", (req, res, next) => {
   res.send("I'm the first student");
 });
 
