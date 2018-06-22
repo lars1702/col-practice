@@ -6,4 +6,9 @@ router.get('/', (req, res, next) => {
   res.render('index');
 });
 
+
+router.get('/student1', (req, res, next) => {
+  res.send("I'm the first student");
+});
+
 module.exports = router;
